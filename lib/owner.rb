@@ -54,9 +54,9 @@ class Owner
   end 
   
   def sell_pets 
-    @pets.each do |pet|
-      pet.each do |type|
-        type.mood = "nervous"
+    @pets.each do |k, v|
+      v.each do |ind|
+        ind.mood = "nervous"
       end 
     end 
   end 
