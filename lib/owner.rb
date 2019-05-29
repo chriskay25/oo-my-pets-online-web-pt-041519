@@ -16,4 +16,8 @@ class Owner
     @@all.length 
   end 
   
+  def buy_cat 
+    
+  end 
+  
 end
