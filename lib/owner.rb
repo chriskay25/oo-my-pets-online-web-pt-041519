@@ -59,7 +59,7 @@ class Owner
         ind.mood = "nervous"
       end 
     end 
-    @pets.each {|k, v| v.empty}
+    @pets.each {|k, v| v.clear}
   end 
   
 end
