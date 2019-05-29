@@ -49,6 +49,10 @@ class Owner
     @pets[:cats].each {|cat| cat.mood = "happy"}
   end 
   
+  def feed fish 
+    @pets[:fish].each {|fish| fish.mood = "happy"}
+  end 
+  
 end
 
 
