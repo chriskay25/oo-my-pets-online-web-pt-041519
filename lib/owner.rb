@@ -41,6 +41,9 @@ class Owner
     "I am a #{@species}."
   end 
   
+  def walks_dogs
+    Dogs.mood = "happy"
+  
 end
 
 
