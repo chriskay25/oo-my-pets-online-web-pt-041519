@@ -27,4 +27,19 @@ class Owner
     @pets[cats] << cat
   end 
   
+  def say_species
+    "I am a #{@species}."
+  end 
+  
 end
+
+
+
+
+
+
+
+
+
+
+
