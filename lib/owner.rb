@@ -62,6 +62,9 @@ class Owner
     @pets.each {|k, v| v.clear}
   end 
   
+  def list_pets
+    "I have "
+  
 end
 
 
